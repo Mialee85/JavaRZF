@@ -8,7 +8,7 @@ public class Hello {
 
         int inputNumber = sc.nextInt();
         sc.close();
-
+        
         System.out.println("The doubled amount of your number is: " + inputNumber * 2 + " " + 74 % -4);
 
         double a = 6.5;
@@ -17,6 +17,7 @@ public class Hello {
         a = 6;
         a /= 2;
         System.out.println(a);
+        //Test
         System.out.println(Math.ceil(2.1));
     }
 }
