@@ -1,5 +1,3 @@
-package JavaRZF;
-
 import java.util.Scanner;
 
 public class Caesar {
