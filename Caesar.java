@@ -1,3 +1,5 @@
+package JavaRZF;
+
 import java.util.Scanner;
 
 public class Caesar {
@@ -40,5 +42,6 @@ public class Caesar {
             }
             System.out.print((char) inputVerschluesslungIntegers[i]);
         }
+        // Test für Eclipse git
     }
 }
