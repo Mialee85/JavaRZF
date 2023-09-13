@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Aufgabe1_00000 {
+public class Aufgabe1_Muster {
     public static void main(String[] args) {
         //Aufgabe 1
         //Es soll eine rechteckige Fläche und Kubus berechnet werden.
