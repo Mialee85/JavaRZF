@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Aufgabe1_Muster {
     public static void main(String[] args) {
         //Aufgabe 1
-        //Es soll eine rechteckige Fläche und Kubus berechnet werden.
-        //Es sind einzeln 3 Eingabewerte abzufagen.
+        //Es soll eine rechteckige Fläche und ein Quader berechnet werden.
+        //Es sind einzeln 3 Eingabewerte abzufragen.
         //Die ersten beiden sind als Integer zu speichern, der dritte als double.
         //Die Fläche soll aus den beiden Integern berechnet werden. Das Volumen entsprehend aus allen 3.
         //Anschließend sollen die Eingabewerte und die berechneten Werte ausgegeben werden.
@@ -23,12 +23,12 @@ public class Aufgabe1_Muster {
 		double inputWert3 = sc.nextDouble();
 		
 		int flaeche = inputWert1 * inputWert2;
-		double kubus = flaeche * inputWert3;
+		double quader = flaeche * inputWert3;
 		
 		sc.close();
 		
 		System.out.println("Die Fläche aus " + inputWert1 + " und " + inputWert2 +" beträgt: " + flaeche);
-		System.out.println("Der Kubus aus " + inputWert1 + " und " + inputWert2 + " und " + inputWert3 +" beträgt: " + kubus);
+		System.out.println("Der Quader aus " + inputWert1 + " und " + inputWert2 + " und " + inputWert3 +" beträgt: " + quader);
 		System.out.println("Programmende");
 		
     }
