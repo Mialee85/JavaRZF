@@ -30,7 +30,7 @@ public class Fortgeschritten_1_Boerse_1 {
 			}
 		}
 
-		if (overallDiff < currentMax) {
+		if (overallDiff < currentDiff) {
 			overallDiff = currentDiff;
 		}
 
