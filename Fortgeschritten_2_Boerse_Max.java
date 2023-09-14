@@ -16,7 +16,6 @@ public class Fortgeschritten_2_Boerse_Max {
 		for (int i = 1; i < werte.length; i++) {
 			if (werte[i] > currentMin) {
 				overallDiff = overallDiff + werte[i] - currentMin;
-				currentMax = werte[i];
 			}
 
 			currentMin = werte[i];
