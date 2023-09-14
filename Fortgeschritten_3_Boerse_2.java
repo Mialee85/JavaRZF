@@ -1,7 +1,7 @@
 public class Fortgeschritten_3_Boerse_2 {
 	public static void main(String[] args) {
 		//Das folgende Array stellt den Kurswert einer Aktie zu verschiedenen Zeitpunkten dar.
-		//Ermitteln Sie den maximalen Gewinn für genau 2 Transaktionen.
+		//Ermitteln Sie den maximalen Gewinn für maximal 2 Transaktionen.
 		//1 Transaktion stellt dabei den Kauf und späteren Verkauf einer Aktie dar.
 		//Es kann sich immer nur 1 Aktie gleichzeitig in ihrem Besitz befinden. Es muss also erst verkauft werden, bevor erneut gekauft werden kann.
 		
