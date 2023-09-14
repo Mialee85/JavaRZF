@@ -1,27 +1,12 @@
 public class Fortgeschritten_5_Hamming_Encode {
 	public static void main(String[] args) {
-		//Es soll ein 15-11 Hamming-Code für eine ganzzahlige Eingabe erstellt werden.
+		//Es soll ein erweiterter 16-11 Hamming-Code für eine ganzzahlige Eingabe erstellt werden. Zahlen die zu groß sind oder negative sollen abgefangen werden.
 		//Als Informationsquelle zum Hamming-Code empfiehlt sich die entsprechende Wikipedia-Seite, sowie verschiedene YouTube-Videos.
-		//Hinweis: Es gibt verschiedene Möglichkeiten einen Hamming-Code zu erzeugen/berechnen.
+		//Empfehlenswert (englisch): https://www.youtube.com/watch?v=X8jsijhllIA
+		//Hinweis: Die Nutzlast wird vom höchstwertigem zum niedrigwertigstem Bit eingetragen und vorne mit 0 aufgefüllt.
+		//Hinweis2: Paritybit 0 wird als letztes gesetzt.
 		
-		//Bsp: Der Hemmingcode für die Zahl 493 lautet 0111111101101.
+		//Bsp: Der Hemmingcode für die Zahl 493 lautet 1000101111101101.
 		
-		/*
-			PPXPXXXPXXXXXXX
-			PP0P011P1101101
-
-		  1 111 01101
-		PP1P111P01101
-		  3 567  10 11 13
-		  
-		  1101
-		  1011
-		  1010
-		  0111
-		  0110
-		  0101
-		  0011
-		  
-		  1011 */
 	}
 }
