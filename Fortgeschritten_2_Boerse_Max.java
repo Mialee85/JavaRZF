@@ -10,7 +10,6 @@ public class Fortgeschritten_2_Boerse_Max {
 		//Erwarter Wert 1053.
 
 		int overallDiff = 0;
-		int currentMax = werte[0];
 		int currentMin = werte[0];
 
 		for (int i = 1; i < werte.length; i++) {
