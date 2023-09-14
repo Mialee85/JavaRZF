@@ -1,4 +1,4 @@
-public class Fortgeschritten_2DArray_Abwickeln {
+public class Fortgeschritten_4_2DArray_Abwickeln {
 	public static void main(String[] args) {
 		//Das 2D-Array soll schneckenförmig abgewickelt werden und das Ergebnis ausgegeben werden.
 		//Bsp:
