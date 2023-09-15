@@ -23,7 +23,7 @@ public class Aufgabe1_33331 {
     	
     	System.out.println(rechteck);
     	System.out.println(quader);
-    	
+    
     	
         //Aufgabe 1
         //Es soll eine rechteckige Fläche und ein Quader berechnet werden.
